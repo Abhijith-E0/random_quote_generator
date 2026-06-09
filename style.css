@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#171818,#00f1fe);
+    transition:0.4s;
+}
+
+.container{
+    width:700px;
+    max-width:90%;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 30px 10px rgba(211, 210, 221, 0.2);
+    position:relative;
+}
+
+.bi-sun{
+    position:absolute;
+    right:20px;
+    top:20px;
+    border:none;
+    background:none;
+    cursor:pointer;
+    color: yellow;
+}
+.bi-moon{
+    position:absolute;
+    right:20px;
+    top:20px;
+    border:none;
+    background:none;
+    cursor:pointer;
+    color:rgb(127, 126, 126);
+}
+.bi-moon:hover{
+    transform: scale(1.2);
+    transition:.3s;
+}
+.bi-sun:hover{
+    transform: scale(1.2);
+    transition:.3s;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom:30px;
+}
+
+.quote-box{
+    min-height:180px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+#quote{
+    font-size:1.6rem;
+    line-height:1.6;
+    margin-bottom:20px;
+    font-style: italic;
+}
+
+#author{
+    color:#666;
+}
+
+.buttons{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+button{
+    margin-top: 18px;
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    background:#47050adf;
+    color:rgba(239, 239, 232, 0.88);
+    font-size:13px;
+    font-weight: 900;
+    cursor:pointer;
+    transition:.3s;
+}
+button:hover{
+    transform:translateY(-2px);
+}
+
+.fade{
+    animation:fadeIn .6s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(10px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* Dark Mode */
+
+.dark{
+    background:#121212;
+}
+
+.dark .container{
+    background:#1e1e1e;
+    color:white;
+}
+
+.dark #author{
+    color:#ccc;
+}
