@@ -33,8 +33,12 @@ git clone https://github.com/Abhijith-E0/random-quote-generator.git
 ```
 ## Screenshots
 
-### Light Mode
-<img src="screenshots/darkmode.png" width="700" alt="Project Screenshot">
+### Dark mode Mode
 
-### Dark Mode
-<img src="screenshots/lightmode.png" width="700" alt="Project Screenshot">
+<img width="1196" height="730" alt="darkmode png" src="https://github.com/user-attachments/assets/01b3eacf-f21d-4b6d-9e3e-63fa3e297022" />
+
+### Light Mode
+
+<img width="1743" height="881" alt="lightmode png" src="https://github.com/user-attachments/assets/f7c812a3-2bde-4a16-a154-6484309f9850" />
+
+
