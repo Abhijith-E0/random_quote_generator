@@ -19,3 +19,14 @@ A simple web application that generates random inspirational quotes using a publ
 - Quotable API
 
 ## Project Structure
+random_quote_generator/
+├── index.html
+├── style.css
+└── app.js
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/random-quote-generator.git
