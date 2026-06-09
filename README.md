@@ -17,6 +17,7 @@ A simple web application that generates random inspirational quotes using a publ
 - CSS3
 - JavaScript (ES6)
 - Quotable API
+- API used : https://api.quotable.io/random
 
 ## Project Structure
 
