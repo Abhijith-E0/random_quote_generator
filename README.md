@@ -34,7 +34,7 @@ git clone https://github.com/Abhijith-E0/random-quote-generator.git
 ## Screenshots
 
 ### Light Mode
-![Light Mode](screenshots/lightmode.png)
+<img src="screenshots/darkmode.png" width="700" alt="Project Screenshot">
 
 ### Dark Mode
-![Dark Mode](screenshots/darkmode.png)
+<img src="screenshots/lightmode.png" width="700" alt="Project Screenshot">
