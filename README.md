@@ -19,10 +19,18 @@ A simple web application that generates random inspirational quotes using a publ
 - Quotable API
 
 ## Project Structure
+
+```text
 random_quote_generator/
+│
+├── screenshots/
+│   ├── light-mode.png
+│   └── dark-mode.png
+│
 ├── index.html
 ├── style.css
-└── app.js
+├── app.js
+└── README.md
 
 ## How to Run
 
