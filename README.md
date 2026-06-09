@@ -20,9 +20,9 @@ A simple web application that generates random inspirational quotes using a publ
 
 ## Project Structure
 random_quote_generator/
-#├── index.html
-#├── style.css
-#└── app.js
+├── index.html
+├── style.css
+└── app.js
 
 ## How to Run
 
